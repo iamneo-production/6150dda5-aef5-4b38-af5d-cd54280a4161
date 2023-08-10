@@ -26,5 +26,5 @@ jobs:
           SONAR_TOKEN: 811c9a490983734401ba4e491eaefc8bfa7281de
         run: >-
           mvn -B verify org.sonarsource.scanner.maven:sonar-maven-plugin:sonar
-          -Dsonar.projectKey=iamneo-production_6150dda5-aef5-4b38-af5d-cd54280a4161
+          -Dsonar.projectKey=iamneo-production/6150dda5-aef5-4b38-af5d-cd54280a4161
           -Dsonar.login=811c9a490983734401ba4e491eaefc8bfa7281de
