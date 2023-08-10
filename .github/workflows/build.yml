@@ -16,10 +16,10 @@ jobs:
       - uses: actions/checkout@v2
         with:
           fetch-depth: 0
-      - name: Set up JDK 11
+      - name: Set up JDK 17
         uses: actions/setup-java@v1
         with:
-          java-version: 11
+          java-version: 17
       - name: Build and analyze
         env:
           GITHUB_TOKEN: 6150dda5-aef5-4b38-af5d-cd54280a4161
